@@ -2,13 +2,13 @@ public class SortedMatrixSearch {
 
 	public static void main(String[] args) {
 		
-		int search = 6;//   0 1 2 3
+		int search = 6;
 		int current=0; //this keeps track of elements of matrix
 		int i=0;//row counter
 		int j=3;//last column
 		int [][] matrix = {{1,2,3,4},
-						           {5,6,7,8},
-						           {9,10,11,12}};
+				   {5,6,7,8},
+				   {9,10,11,12}};
 		while(current!=search) {
 			if(matrix[i][j] < search) {
 				current = matrix[i][j];
