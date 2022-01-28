@@ -18,7 +18,7 @@ public class SortedMatrixSearch {
 			else if(matrix[i][j] > search) {
 				current = matrix[i][j];
 				System.out.println("current in else if: "+current);
-        j--;//current row's previous column
+        			j--;//current row's previous column
 			}
 		}
 	}
